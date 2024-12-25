@@ -1,6 +1,5 @@
-# Project
-Redbus Webscraping
-Introduction
+**Redbus Webscraping
+**Introduction
 The "Redbus Data Scraping and Filtering with Streamlit Application" project aims to enhance the transportation sector by automating the collection, analysis, and presentation of bus travel data. Utilizing Selenium for web scraping, this project gathers critical information from Redbus, including bus routes, schedules, ticket prices, and seat availability. By streamlining the data collection process and providing insights through data visualization, this solution helps improve operational efficiency and decision-making in transportation planning.
 
 Problem Statement

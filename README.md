@@ -72,4 +72,6 @@ Data Visualization: Presents the retrieved data in a clear and interactive forma
 
 
 Summary
+
+
 This project integrates web scraping, data processing, and interactive visualization to streamline transportation data management. By automating repetitive tasks and providing actionable insights, it serves as a valuable tool for stakeholders in the transportation industry.

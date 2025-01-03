@@ -36,36 +36,59 @@ Streamlit-Option-Menu: pip install streamlit-option-menu
 
 Code Flow
 1. Redbus.ipynb
+
 Libraries: Imports Selenium, time, and pandas for web automation and data processing.
+
 Browser Initialization: Opens a Chrome browser session.
+
 Page Navigation: Loads the Redbus website and maximizes the window.
+
 Explicit Waits: Sets a 20-second timeout for page elements.
+
 Data Extraction: Retrieves bus route links and names using pagination.
+
 Pagination Handling: Automates navigation across pages to gather all available data.
+
 Data Return: Returns lists containing route names and links.
 
 2. BusDetails.ipynb
+
 Libraries: Imports Selenium, pandas, and time for automation and data handling.
+
 Data Reading: Loads a CSV file containing route data into a pandas DataFrame.
+
 Browser Automation: Opens each route link to extract bus details.
+
 Scroll and Click: Scrolls through each page to reveal bus information and retrieves details like names, schedules, prices, and seat availability.
+
 Data Storage: Appends extracted information into pre-defined lists for further processing.
 
 3. Sql.ipynb
+
 Libraries: Uses pandas for data manipulation and MySQL Connector for database interaction.
+
 Data Preparation: Cleans and formats the extracted data, including converting text to numeric values and handling missing data.
+
 Database Operations:
+
 Creates a MySQL database and table for storing bus details.
+
 Inserts cleaned data into the database.
+
 File Saving: Saves the processed data into a CSV file.
 
 4. RedBus_APP.py
+
 Libraries: Imports Streamlit, pandas, and MySQL Connector for app creation and database management.
+
 Database Connection: Connects to the MySQL database to fetch filtered data.
+
 App Layout: Configures a user-friendly interface using Streamlit with custom headings and styles.
+
 User Interaction:
 Provides dropdowns and filters for selecting states, routes, bus types, and price ranges.
 Fetches and displays the filtered data based on user inputs.
+
 Data Visualization: Presents the retrieved data in a clear and interactive format for users.
 
 

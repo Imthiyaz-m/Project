@@ -63,8 +63,8 @@ Scroll and Click: Scrolls through each page to reveal bus information and retrie
 
 Data Storage: Appends extracted information into pre-defined lists for further processing.
 
-3. Sql.ipynb
-
+**3. Sql.ipynb
+**
 Libraries: Uses pandas for data manipulation and MySQL Connector for database interaction.
 
 Data Preparation: Cleans and formats the extracted data, including converting text to numeric values and handling missing data.
